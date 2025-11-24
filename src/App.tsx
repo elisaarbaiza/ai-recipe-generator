@@ -1,8 +1,8 @@
-import { FormEvent, useState } from "react";
+import { type FormEvent, useState } from "react";
 import { Loader, Placeholder } from "@aws-amplify/ui-react";
 import "./App.css";
 import { Amplify } from "aws-amplify";
-import { Schema } from "../amplify/data/resource";
+import type { Schema } from "../amplify/data/resource";
 import { generateClient } from "aws-amplify/data";
 import outputs from "../amplify_outputs.json";
 import "@aws-amplify/ui-react/styles.css";
@@ -36,7 +36,7 @@ amplifyClient.queries.askBedrock({
  return (
  <div className="app-container">
  <div className="header-container">
- <h1 className="main-header">
+  <h1 className="main-header">
  Meet Your Personal
  <br />
  <span className="highlight">Recipe AI</span>
