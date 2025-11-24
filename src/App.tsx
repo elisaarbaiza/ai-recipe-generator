@@ -41,6 +41,8 @@ amplifyClient.queries.askBedrock({
  <br />
  <span className="highlight">Recipe AI</span>
  </h1>
+ <p className= "description">NAME: Elisa Arbaiza</p>
+ <p className= "description">COURSE: CSCE 3420</p>
  <p className="description">
  Simply type a few ingredients using the format ingredient1,
  ingredient2, etc., and Recipe AI will generate an all-new
